@@ -94,22 +94,6 @@ const 读文件成地址 = (原始数据,回调)=>{
     读.onload = e => 回调(e.target.result);
     读.readAsDataURL(原始数据);
 };
-const 获取字体数据地址 = (地址,回调)=>{
-    fetch(地址).then(r => r.blob()).then(原始数据 => 读文件成地址(原始数据,回调));
-};
-const 获取字体样式 = (字体名,回调)=>{
-    获取字体数据地址(`${字体名}.woff?v=9`,地址 => 回调(`@font-face {
-        font-family: ${字体名};
-        src: url(${地址});
-    };`));
-};
-获取字体样式('slice',样式字串=>{
-    图形.querySelector('style').innerHTML = 样式字串;
-    const 样式元素 = 新建元素('style');
-    样式元素.innerHTML = 样式字串;
-    头元素.appendChild(样式元素);
-    setTimeout(_=>如何做爱元素.removeAttribute('data-loading'),2e3);
-});
 
 const 宽 = 1134;
 const 高 = 976;
@@ -148,7 +132,7 @@ const 保存图像 = _=>{
     // open(数据地址);
     // return ;
     地址变图像元素(数据地址,图=>{
-        上下文.fillStyle = '#efb4b4';
+        上下文.fillStyle = '#FAE8C9';
         上下文.fillRect(
             0,0,
             宽 * 比,宽 * 比
@@ -160,10 +144,10 @@ const 保存图像 = _=>{
             0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
-        // return 下载文件(画板.toDataURL(),`[神奇海螺][中国制霸]${+new Date()}.png`,保存);
+        // return 下载文件(画板.toDataURL(),`[ThusLab][吃货制霸]${+new Date()}.png`,保存);
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
-            下载文件(地址,`[神奇海螺][中国制霸]${+new Date()}.png`);
+            下载文件(地址,`[ThusLab][吃货制霸]${+new Date()}.png`);
 
             输出图像.style.display = '';
             输出图像.querySelector('img').src = 地址;

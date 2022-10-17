@@ -20,40 +20,40 @@
 <g id="china-ex-sketch">
 	<rect y="0" class="st0" width="1548" height="1210"/>
 	<g>
-		<polygon id="黑龙江" class="st1" points="1308,150 1308,308 1102,308 1102,150 		"/>
-		<polygon id="甘肃" class="st1" points="793,308 793,679 559,679 559,308 		"/>
-		<polygon id="吉林" class="st2" points="1102,308 1102,393 1308,393 1308,308 		"/>
-		<polygon id="内蒙古" class="st2" points="1102,150 946,150 946,308 707,308 707,535 934,535 1102,427 		"/>
-		<polygon id="山东" class="st3" points="987,563 987,655 1126,655 1126,563 		"/>
-		<path id="河北" class="st1" d="M1069,427H934v180h117v-95h18V427z"/>
-		<rect id="北京" x="971" y="453" class="st4" width="80" height="52"/>
-		<polygon id="天津" class="st1" points="971,505 1051,505 1051,548 971,548 		"/>
-		<polygon id="西藏" class="st1" points="597,887 243,887 243,583 597,583 		"/>
-		<polygon id="新疆" class="st1" points="243,583 243,204 559,204 559,583 		"/>
-		<polygon id="河南" class="st5" points="987,607 862,607 862,724 987,724 		"/>
-		<polygon id="安徽" class="st1" points="1060,655 987,655 987,793 1060,793 		"/>
-		<polygon id="山西" class="st1" points="862,535 862,643 934,643 934,535 		"/>
-		<polygon id="湖北" class="st1" points="987,805 987,724 862,724 862,805 		"/>
-		<polygon id="青海" class="st1" points="650,743 650,512 436,512 436,743 		"/>
-		<polygon id="辽宁" class="st6" points="1069,393 1069,512 1223,512 1223,393 		"/>
-		<polygon id="广东" class="st1" points="1031,905 887,905 887,986 1031,986 		"/>
-		<polygon id="江苏" class="st3" points="1107,655 1107,742 1045,742 1045,655 		"/>
-		<polygon id="江西" class="st1" points="1060,923 1060,793 957,793 957,923 		"/>
-		<polygon id="浙江" class="st3" points="1060,742 1134,743 1134,850 1060,850 		"/>
-		<polygon id="福建" class="st2" points="1031,850 1031,957 1104,957 1104,850 		"/>
-		<rect id="上海" x="1090" y="719" class="st6" width="72" height="47"/>
-		<polygon id="陕西" class="st1" points="793,770 862,770 862,535 793,535 		"/>
-		<polygon id="湖南" class="st1" points="862,805 957,805 957,905 862,905 		"/>
-		<polygon id="广西" class="st1" points="887,905 745,905 745,986 887,986 		"/>
-		<rect id="香港" x="966" y="973" class="st1" width="42" height="33"/>
-		<rect id="澳门" x="909" y="973" class="st1" width="45" height="33"/>
-		<polygon id="贵州" class="st1" points="862,826 745,826 745,905 862,905 		"/>
-		<rect id="重庆" x="773" y="770" class="st2" width="89" height="56"/>
-		<polygon id="四川" class="st2" points="773,854 773,770 793,770 793,679 597,679 597,854 		"/>
-		<polygon id="云南" class="st1" points="745,854 597,854 597,969 745,969 		"/>
-		<polygon id="宁夏" class="st1" points="793,535 707,535 707,631 793,631 		"/>
-		<rect id="台湾" x="1126" y="905" class="st1" width="45" height="87"/>
-		<rect id="海南" x="823" y="1014" class="st1" width="78" height="46"/>
+		<polygon id="锅包肉" class="st1" points="1308,150 1308,308 1102,308 1102,150 		"/>
+		<polygon id="牛肉面" class="st1" points="793,308 793,679 559,679 559,308 		"/>
+		<polygon id="冷面" class="st2" points="1102,308 1102,393 1308,393 1308,308 		"/>
+		<polygon id="烤全羊" class="st2" points="1102,150 946,150 946,308 707,308 707,535 934,535 1102,427 		"/>
+		<polygon id="黄焖鸡" class="st3" points="987,563 987,655 1126,655 1126,563 		"/>
+		<path id="驴肉火烧" class="st1" d="M1069,427H934v180h117v-95h18V427z"/>
+		<rect id="烤鸭" x="971" y="453" class="st4" width="80" height="52"/>
+		<polygon id="煎饼果子" class="st1" points="971,505 1051,505 1051,548 971,548 		"/>
+		<polygon id="酥油茶" class="st1" points="597,887 243,887 243,583 597,583 		"/>
+		<polygon id="羊肉串" class="st1" points="243,583 243,204 559,204 559,583 		"/>
+		<polygon id="烩面" class="st5" points="987,607 862,607 862,724 987,724 		"/>
+		<polygon id="牛肉汤" class="st1" points="1060,655 987,655 987,793 1060,793 		"/>
+		<polygon id="刀削面" class="st1" points="862,535 862,643 934,643 934,535 		"/>
+		<polygon id="热干面" class="st1" points="987,805 987,724 862,724 862,805 		"/>
+		<polygon id="青稞" class="st1" points="650,743 650,512 436,512 436,743 		"/>
+		<polygon id="小鸡炖蘑菇" class="st6" points="1069,393 1069,512 1223,512 1223,393 		"/>
+		<polygon id="肠粉" class="st1" points="1031,905 887,905 887,986 1031,986 		"/>
+		<polygon id="大闸蟹" class="st3" points="1107,655 1107,742 1045,742 1045,655 		"/>
+		<polygon id="瓦罐汤" class="st1" points="1060,923 1060,793 957,793 957,923 		"/>
+		<polygon id="小笼包" class="st3" points="1060,742 1134,743 1134,850 1060,850 		"/>
+		<polygon id="沙县小吃" class="st2" points="1031,850 1031,957 1104,957 1104,850 		"/>
+		<rect id="生煎包" x="1090" y="719" class="st6" width="72" height="47"/>
+		<polygon id="肉夹馍" class="st1" points="793,770 862,770 862,535 793,535 		"/>
+		<polygon id="臭豆腐" class="st1" points="862,805 957,805 957,905 862,905 		"/>
+		<polygon id="螺蛳粉" class="st1" points="887,905 745,905 745,986 887,986 		"/>
+		<rect id="鸡蛋仔" x="966" y="973" class="st1" width="42" height="33"/>
+		<rect id="蛋挞" x="909" y="973" class="st1" width="45" height="33"/>
+		<polygon id="肠旺面" class="st1" points="862,826 745,826 745,905 862,905 		"/>
+		<rect id="火锅" x="773" y="770" class="st2" width="89" height="56"/>
+		<polygon id="毛血旺" class="st2" points="773,854 773,770 793,770 793,679 597,679 597,854 		"/>
+		<polygon id="过桥米线" class="st1" points="745,854 597,854 597,969 745,969 		"/>
+		<polygon id="羊杂碎" class="st1" points="793,535 707,535 707,631 793,631 		"/>
+		<rect id="卤肉饭" x="1126" y="905" class="st1" width="45" height="87"/>
+		<rect id="清补凉" x="823" y="1014" class="st1" width="78" height="46"/>
 	</g>
 </g>
 </svg>

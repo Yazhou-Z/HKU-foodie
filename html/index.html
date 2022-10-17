@@ -1,187 +1,218 @@
 <!DOCTYPE html>
-<html lang="zh-Hans" data-loading>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>中国制霸生成器 - 中国三十四省级行政区域制霸标记生成工具</title>
-	<meta name="description" content="中国三十四省级行政区域制霸标记生成工具">
-    <link rel="stylesheet" href="document.css?v=9">
-</head>
-<body>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1134 976">
-<style></style>
-<style>
-text{
-	font-family: slice,sans-serif;
-	fill:#111;
-	font-size:30px;
-}
-#title{font-size:60px;}
-#分数{font-size:60px;}
-#地区 path,
-#地区 rect,
-polyline{
-    fill-rule:evenodd;
-    clip-rule:evenodd;
-    stroke:#000;
-    stroke-width:4;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-}
-#地区 path,
-#地区 rect{
-    fill:#FFF;
-    cursor: pointer;
-    pointer-events: auto;
-}
-polyline{fill:none;pointer-events:none;}
-#地区 > *[level="5"]{fill:#FF7E7E;}
-#地区 > *[level="4"]{fill:#FFB57E;}
-#地区 > *[level="3"]{fill:#FFE57E;}
-#地区 > *[level="2"]{fill:#A8FFBE;}
-#地区 > *[level="1"]{fill:#88AEFF;}
-.level-border{
-    fill-rule:evenodd;
-    clip-rule:evenodd;
-    fill:none;
-    stroke:#000000;
-    stroke-width:4;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    stroke-miterlimit:10;
-}
-</style>
-<text x="425" y="119" id="title">中国制霸</text>
-<g id="地区">
-	<path id="黑龙江" d="M1100,33v158H894V33H1100z"/>
-	<path id="甘肃" d="M585,191v371H351V191H585z"/>
-	<path id="吉林" d="M894,191v85h206v-85H894z"/>
-	<path id="内蒙古" d="M894,33H738v158H499v227h227l168-108V33z"/>
-	<path id="山东" d="M779,446v92h139v-92H779z"/>
-	<path id="河北" d="M861,310H726v180h117v-95h18V310z"/>
-	<rect id="北京" x="763" y="336" width="80" height="52"/>
-	<path id="天津" d="M763,388h80v43h-80V388z"/>
-	<path id="西藏" d="M389,770H35V466h354V770z"/>
-	<path id="新疆" d="M35,466V87h316v379H35z"/>
-	<path id="河南" d="M779,490H654v117h125V490z"/>
-	<path id="安徽" d="M852,538h-73v138h73V538z"/>
-	<path id="山西" d="M654,418v108h72V418H654z"/>
-	<path id="湖北" d="M779,688v-81H654v81H779z"/>
-	<path id="青海" d="M442,626V395H228v231H442z"/>
-	<path id="辽宁" d="M861,276v119h154V276H861z"/>
-	<path id="广东" d="M823,788H679v81h144V788z"/>
-	<path id="江苏" d="M899,538v87h-62v-87H899z"/>
-	<path id="江西" d="M852,806V676H749v130H852z"/>
-	<path id="浙江" d="M852,625l74,1v107h-74V625z"/>
-	<path id="福建" d="M823,733v107h73V733H823z"/>
-	<rect id="上海" x="882" y="602" width="72" height="47"/>
-	<path id="陕西" d="M585,653h69V418h-69V653z"/>
-	<path id="湖南" d="M654,688h95v100h-95V688z"/>
-	<path id="广西" d="M679,788H537v81h142V788z"/>
-	<rect id="香港" x="758" y="856" width="42" height="33"/>
-	<rect id="澳门" x="701" y="856" width="45" height="33"/>
-	<path id="贵州" d="M654,709H537v79h117V709z"/>
-	<rect id="重庆" x="565" y="653" width="89" height="56"/>
-	<path id="四川" d="M565,737v-84h20v-91H389v175H565z"/>
-	<path id="云南" d="M537,737H389v115h148V737z"/>
-	<path id="宁夏" d="M585,418h-86v96h86V418z"/>
-	<rect id="台湾" x="918" y="788" width="45" height="87"/>
-	<rect id="海南" x="615" y="897" width="78" height="46"/>
-</g>
-<polyline id="曾母暗沙" points="827,941 827,897 908,897 908,941"/>
-<g id="地名">
-	<text x="659" y="266">内蒙古</text>
-	<text x="951" y="123">黑龙江</text>
-	<text x="966" y="242">吉林</text>
-	<text x="906" y="347">辽宁</text>
-	<text x="773" y="371">北京</text>
-	<text x="773" y="419">天津</text>
-	<text x="751" y="469">河北</text>
-	<text x="861" y="488">山</text>
-	<text x="861" y="518">东</text>
-	<text x="685" y="579">河南</text>
-	<text x="684" y="658">湖北</text>
-	<text x="684" y="735">湖</text>
-	<text x="684" y="765">南</text>
-	<text x="846" y="575">江</text>
-	<text x="846" y="605">苏</text>
-	<text x="888" y="635">上海</text>
-	<text x="872" y="685">浙</text>
-	<text x="872" y="715">江</text>
-	<text x="844" y="783">福</text>
-	<text x="844" y="813">建</text>
-	<text x="925" y="826">台</text>
-	<text x="925" y="856">湾</text>
-	<text x="625" y="930">海南</text>
-	<text x="721" y="842">广东</text>
-	<text x="772" y="736">江</text>
-	<text x="772" y="766">西</text>
-	<text x="793" y="603">安</text>
-	<text x="793" y="633">徽</text>
-	<text x="673" y="466">山</text>
-	<text x="673" y="496">西</text>
-	<text x="602" y="536">陕</text>
-	<text x="602" y="566">西</text>
-	<text x="525" y="460">宁</text>
-	<text x="525" y="490">夏</text>
-	<text x="409" y="304">甘</text>
-	<text x="409" y="334">肃</text>
-	<text x="301" y="520">青海</text>
-	<text x="453" y="660">四川</text>
-	<text x="432" y="805">云南</text>
-	<text x="579" y="839">广西</text>
-	<text x="566" y="759">贵州</text>
-	<text x="577" y="691">重庆</text>
-	<text x="104" y="639">西藏</text>
-	<text x="163" y="288">新疆</text>
-	<text x="767" y="880" style="font-size:24px">港</text>
-	<text x="711" y="880" style="font-size:24px">澳</text>
-</g>
-<text id="神奇海螺" x="37" y="937">神奇海螺试验场</text>
-<text id="分数" x="35" y="883">分数</text>
-<g id="等级">
-	<rect x="983" y="450" width="120" height="50" fill="#FF7E7E"/>
-	<rect x="983" y="500" width="120" height="50" fill="#FFB57E"/>
-	<rect x="983" y="550" width="120" height="50" fill="#FFE57E"/>
-	<rect x="983" y="600" width="120" height="50" fill="#A8FFBE"/>
-	<rect x="983" y="650" width="120" height="50" fill="#88AEFF"/>
-	<rect x="983" y="700" width="120" height="50" fill="#FFFFFF"/>
-	<rect x="983" y="450" class="level-border" width="120" height="300"/>
-	<text x="1000" y="484">居住５</text>
-	<text x="1000" y="535">短居４</text>
-	<text x="1000" y="585">游玩３</text>
-	<text x="1000" y="635">出差２</text>
-	<text x="1000" y="685">路过１</text>
-	<text x="998" y="735">没去过</text>
-</g>
-</svg>
-<div id="设置等级">
-    <h2>地区</h2>
-    <a data-level="5">居住</a>
-    <a data-level="4">短居</a>
-    <a data-level="3">游玩</a>
-    <a data-level="2">出差</a>
-    <a data-level="1">路过</a>
-    <a data-level="0">没去过</a>
-</div>
-<footer>
-	<a href="https://lab.magiconch.com" target="_blank">lab</a>
-	<a href="https://github.com/itorr/china-ex" target="_blank">GitHub</a>
-	<a id="保存" class="按钮">保存成图片</a>
-</footer>
-<div id="输出图像" style="display: none;">
-	<div>
-		<img>
-	</div>
-	<p>
-		手机端可长按图片
-		<b>“添加到照片”</b>
-	</p>
-	<div>
-		<a class="按钮">关闭</a>
-	</div>
-</div>
-<script src="document.js?v=9"></script>
-</body>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>中国吃货制霸生成器</title>
+    <meta name="description" content="中国吃货制霸生成器" />
+		<meta name="keywords" content="中国吃货制霸生成器,美食地图,中国美食地图">
+    <link rel="stylesheet" href="document.css" />
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1134 976">
+      <style></style>
+      <style>
+        text {
+          font-family: slice, sans-serif;
+          fill: #111;
+          font-size: 30px;
+        }
+        #title {
+          font-size: 60px;
+        }
+        #分数 {
+          font-size: 60px;
+        }
+        #地区 path,
+        #地区 rect,
+        polyline {
+          fill-rule: evenodd;
+          clip-rule: evenodd;
+          stroke: #000;
+          stroke-width: 4;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+        }
+        #地区 path,
+        #地区 rect {
+          fill: #fff;
+          cursor: pointer;
+          pointer-events: auto;
+        }
+        polyline {
+          fill: none;
+          pointer-events: none;
+        }
+        #地区 > *[level="5"] {
+          fill: #ff7e7e;
+        }
+        #地区 > *[level="4"] {
+          fill: #ffb57e;
+        }
+        #地区 > *[level="3"] {
+          fill: #ffe57e;
+        }
+        #地区 > *[level="2"] {
+          fill: #a8ffbe;
+        }
+        #地区 > *[level="1"] {
+          fill: #88aeff;
+        }
+        .level-border {
+          fill-rule: evenodd;
+          clip-rule: evenodd;
+          fill: none;
+          stroke: #000000;
+          stroke-width: 4;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+        }
+      </style>
+      <text x="395" y="119" id="title">🍜吃货制霸</text>
+      <g id="地区">
+        <path id="锅包肉" d="M1100,33v158H894V33H1100z" />
+        <path id="牛肉面" d="M585,191v371H351V191H585z" />
+        <path id="冷面" d="M894,191v85h206v-85H894z" />
+        <path id="烤全羊" d="M894,33H738v158H499v227h227l168-108V33z" />
+        <path id="黄焖鸡" d="M779,446v92h139v-92H779z" />
+        <path id="驴肉火烧" d="M861,310H726v180h117v-95h18V310z" />
+        <rect id="烤鸭" x="763" y="336" width="80" height="52" />
+        <path id="煎饼果子" d="M763,388h80v43h-80V388z" />
+        <path id="酥油茶" d="M389,770H35V466h354V770z" />
+        <path id="羊肉串" d="M35,466V87h316v379H35z" />
+        <path id="烩面" d="M779,490H654v117h125V490z" />
+        <path id="牛肉汤" d="M852,538h-73v138h73V538z" />
+        <path id="刀削面" d="M654,418v108h72V418H654z" />
+        <path id="热干面" d="M779,688v-81H654v81H779z" />
+        <path id="青稞" d="M442,626V395H228v231H442z" />
+        <path id="小鸡炖蘑菇" d="M861,276v119h154V276H861z" />
+        <path id="肠粉" d="M823,788H679v81h144V788z" />
+        <path id="大闸蟹" d="M899,538v87h-62v-87H899z" />
+        <path id="瓦罐汤" d="M852,806V676H749v130H852z" />
+        <path id="小笼包" d="M852,625l74,1v107h-74V625z" />
+        <path id="沙县小吃" d="M823,733v107h73V733H823z" />
+        <rect id="生煎包" x="882" y="602" width="72" height="47" />
+        <path id="肉夹馍" d="M585,653h69V418h-69V653z" />
+        <path id="臭豆腐" d="M654,688h95v100h-95V688z" />
+        <path id="螺蛳粉" d="M679,788H537v81h142V788z" />
+        <rect id="鸡蛋仔" x="758" y="856" width="42" height="33" />
+        <rect id="蛋挞" x="701" y="856" width="45" height="33" />
+        <path id="肠旺面" d="M654,709H537v79h117V709z" />
+        <rect id="火锅" x="565" y="653" width="89" height="56" />
+        <path id="毛血旺" d="M565,737v-84h20v-91H389v175H565z" />
+        <path id="过桥米线" d="M537,737H389v115h148V737z" />
+        <path id="羊杂碎" d="M585,418h-86v96h86V418z" />
+        <rect id="卤肉饭" x="918" y="788" width="45" height="87" />
+        <rect id="清补凉" x="615" y="897" width="78" height="46" />
+      </g>
+      <polyline id="曾母暗沙" points="827,941 827,897 908,897 908,941" />
+      <g id="地名">
+        <text x="659" y="266">烤全羊</text>
+        <text x="951" y="123">锅包肉</text>
+        <text x="966" y="242">冷面</text>
+        <text x="875" y="347" style="font-size: 26px">小鸡炖蘑菇</text>
+        <text x="773" y="371">烤鸭</text>
+        <text x="768" y="417" style="font-size: 18px">煎饼果子</text>
+        <text x="745" y="469" style="font-size: 20px">驴肉火烧</text>
+        <text x="861" y="478" style="font-size: 20px">黄</text>
+        <text x="861" y="498" style="font-size: 20px">焖</text>
+				<text x="861" y="518" style="font-size: 20px">鸡</text>
+        <text x="685" y="579">烩面</text>
+        <text x="675" y="658">热干面</text>
+        <text x="690" y="725" style="font-size: 20px">臭</text>
+        <text x="690" y="745" style="font-size: 20px">豆</text>
+				<text x="690" y="765" style="font-size: 20px">腐</text>
+        <text x="853" y="565" style="font-size: 20px">大</text>
+        <text x="853" y="585" style="font-size: 20px">闸</text>
+				<text x="853" y="605" style="font-size: 20px">蟹</text>
+        <text x="888" y="634" style="font-size: 20px">生煎包</text>
+        <text x="872" y="670" style="font-size: 20px">小</text>
+        <text x="872" y="690" style="font-size: 20px">笼</text>
+				<text x="872" y="710" style="font-size: 20px">包</text>
+        <text x="850" y="763" style="font-size: 20px">沙</text>
+        <text x="850" y="783" style="font-size: 20px">县</text>
+				<text x="850" y="803" style="font-size: 20px">小</text>
+        <text x="850" y="823" style="font-size: 20px">吃</text>
+        <text x="930" y="820" style="font-size: 20px">卤</text>
+        <text x="930" y="840" style="font-size: 20px">肉</text>
+				<text x="930" y="860" style="font-size: 20px">饭</text>
+        <text x="625" y="928" style="font-size: 20px">清补凉</text>
+        <text x="721" y="842">肠粉</text>
+        <text x="772" y="726">瓦</text>
+        <text x="772" y="756">罐</text>
+				<text x="772" y="786">汤</text>
+        <text x="793" y="593">牛</text>
+        <text x="793" y="623">肉</text>
+				<text x="793" y="653">汤</text>
+        <text x="678" y="456" style="font-size: 24px">刀</text>
+        <text x="678" y="480" style="font-size: 24px">削</text>
+				<text x="678" y="504" style="font-size: 24px">面</text>
+        <text x="602" y="526">肉</text>
+        <text x="602" y="556">夹</text>
+				<text x="602" y="586">馍</text>
+        <text x="530" y="455" style="font-size: 20px">羊</text>
+        <text x="530" y="475" style="font-size: 20px">杂</text>
+				<text x="530" y="495" style="font-size: 20px">碎</text>
+        <text x="409" y="304">牛</text>
+        <text x="409" y="334">肉</text>
+				<text x="409" y="364">面</text>
+        <text x="301" y="520">青稞</text>
+        <text x="453" y="660">毛血旺</text>
+        <text x="402" y="805">过桥米线</text>
+        <text x="569" y="839">螺蛳粉</text>
+        <text x="556" y="766" style="font-size: 28px">肠旺面</text>
+        <text x="577" y="691">火锅</text>
+        <text x="104" y="639">酥油茶</text>
+        <text x="163" y="288">羊肉串</text>
+        <text x="767" y="880" style="font-size: 24px">港</text>
+        <text x="711" y="880" style="font-size: 24px">澳</text>
+      </g>
+			<text id="ThusLab" x="37" y="937" style="font-size: 24px">ThusLab</text>
+      <text id="分数" x="35" y="883">分数</text>
+      <g id="等级">
+        <rect x="983" y="450" width="120" height="50" fill="#FF7E7E" />
+        <rect x="983" y="500" width="120" height="50" fill="#FFB57E" />
+        <rect x="983" y="550" width="120" height="50" fill="#FFE57E" />
+        <rect x="983" y="600" width="120" height="50" fill="#A8FFBE" />
+        <rect x="983" y="650" width="120" height="50" fill="#88AEFF" />
+        <rect x="983" y="700" width="120" height="50" fill="#FFFFFF" />
+        <rect x="983" y="450" class="level-border" width="120" height="300" />
+        <text x="1000" y="484" style="font-size: 24px">天天吃５</text>
+        <text x="1000" y="535" style="font-size: 24px">超爱４</text>
+        <text x="1000" y="585" style="font-size: 24px">喜欢３</text>
+        <text x="1000" y="635" style="font-size: 24px">吃过２</text>
+        <text x="1000" y="685" style="font-size: 24px">害怕１</text>
+        <text x="998" y="735" style="font-size: 24px">没听说</text>
+      </g>
+    </svg>
+    <div id="设置等级">
+      <h2>地区</h2>
+      <a data-level="5">天天吃</a>
+      <a data-level="4">超爱</a>
+      <a data-level="3">喜欢</a>
+      <a data-level="2">吃过</a>
+      <a data-level="1">害怕</a>
+      <a data-level="0">没听说</a>
+    </div>
+    <footer>
+      <a href="https://lvwzhen.com/" target="_blank">@lvwzhen</a>
+      <a href="https://github.com/lvwzhen/foodie-ex" target="_blank">GitHub</a>
+      <a id="保存" class="按钮">保存成图片</a>
+    </footer>
+    <div id="输出图像" style="display: none">
+      <div>
+        <img />
+      </div>
+      <p>
+        手机端可长按图片
+        <b>“添加到照片”</b>
+      </p>
+      <div>
+        <a class="按钮">关闭</a>
+      </div>
+    </div>
+    <script src="document.js"></script>
+  </body>
 </html>
