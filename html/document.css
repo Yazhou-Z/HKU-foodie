@@ -1,6 +1,16 @@
+@font-face {
+  font-family: "slice";
+  src: url("slice.eot");
+  src: url("slice.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("slice.woff") format("woff"), /* chrome、firefox */ url("slice.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */ url("slice.svg#slice") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  
+  /* IE9 */
+  /* iOS 4.1- */
+}
 html {
-  font: 18px/40px sans-serif;
-  background-color: #FAE8C9;
+  font: 18px/40px slice, sans-serif;
+  background-color: #fae8c9;
   color: #111;
 }
 body {
@@ -29,7 +39,7 @@ a {
   display: none;
   position: absolute;
   z-index: 1;
-  background: #FFF;
+  background: #fff;
   width: 140px;
   border-radius: 4px;
   overflow: hidden;
@@ -55,26 +65,26 @@ a {
 }
 #设置等级 h2[data-level="5"],
 #设置等级 a[data-level="5"] {
-  background: #FF7E7E;
+  background: #ff7e7e;
 }
 #设置等级 h2[data-level="4"],
 #设置等级 a[data-level="4"] {
-  background: #FFB57E;
+  background: #ffb57e;
 }
 #设置等级 h2[data-level="3"],
 #设置等级 a[data-level="3"] {
-  background: #FFE57E;
+  background: #ffe57e;
 }
 #设置等级 h2[data-level="2"],
 #设置等级 a[data-level="2"] {
-  background: #A8FFBE;
+  background: #a8ffbe;
 }
 #设置等级 h2[data-level="1"],
 #设置等级 a[data-level="1"] {
-  background: #88AEFF;
+  background: #88aeff;
 }
 .按钮 {
-  background: #FFF;
+  background: #fff;
   box-shadow: 0 0 0 4px #111;
   border-radius: 3px;
 }
@@ -102,7 +112,7 @@ footer a.按钮 {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #FFF;
+  background: #fff;
   text-align: center;
   flex-direction: column;
   flex-wrap: nowrap;
