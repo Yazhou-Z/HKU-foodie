@@ -1,10 +1,13 @@
 @font-face {
   font-family: "slice";
   src: url("slice.eot");
-  src: url("slice.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("slice.woff") format("woff"), /* chrome、firefox */ url("slice.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */ url("slice.svg#slice") format("svg");
+  src: url("slice.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("slice.woff") format("woff"),
+    /* chrome、firefox */ url("slice.ttf") format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */ url("slice.svg#slice") format("svg");
   font-style: normal;
   font-weight: normal;
-  
+
   /* IE9 */
   /* iOS 4.1- */
 }
@@ -16,6 +19,7 @@ html {
 body {
   margin: 0;
 }
+
 html,
 body {
   height: 100%;
@@ -105,6 +109,25 @@ footer a {
 footer a.按钮 {
   margin-left: 10px;
 }
+.其他版本 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.其他版本 select {
+  background: #fff;
+  box-shadow: 0 0 0 4px #111;
+  border-radius: 3px;
+  font-size: 24px;
+  padding: 5px 25px 5px 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: #fff url("go.svg") no-repeat right center;
+  background-size: 30px;
+}
 #输出图像 {
   display: flex;
   position: fixed;
@@ -172,3 +195,4 @@ html[data-loading] footer {
   pointer-events: none;
   opacity: 0;
 }
+
