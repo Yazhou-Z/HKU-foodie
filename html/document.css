@@ -118,7 +118,7 @@ footer a.按钮 {
   line-height: 30px;
 }
 .其他版本 select {
-  background: #fff;
+  color: #111;
   box-shadow: 0 0 0 4px #111;
   border-radius: 3px;
   font-size: 24px;
@@ -164,7 +164,7 @@ footer a.按钮 {
     line-height: 24px;
     margin: 10px;
   }
-  .其他版本{
+  .其他版本 {
     padding: 10px;
   }
   footer a {
