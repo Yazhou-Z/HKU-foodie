@@ -163,8 +163,18 @@ footer a.按钮 {
     line-height: 24px;
     margin: 10px;
   }
+  .其他版本{
+    padding: 10px;
+  }
   footer a {
     padding: 6px 8px;
+  }
+  .其他版本 select {
+    box-shadow: 0 0 0 2px #111;
+    font-size: 16px;
+    line-height: 24px;
+    background-size: 20px;
+    padding-right: 20px;
   }
   .按钮 {
     box-shadow: 0 0 0 2px #111;
