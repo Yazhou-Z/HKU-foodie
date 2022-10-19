@@ -17,7 +17,9 @@ https://food.lvwzhen.com/
 ## 提示
 请使用自带浏览器进行保存
 
-## 参考 
-- https://github.com/itorr/china-ex
-- https://zhung.com.tw/japanex/
+## 其他版本
+- 中国版：https://github.com/itorr/china-ex
+- 美国版：https://tenpages.github.io/us-level/us.html
+- 欧洲版：https://tenpages.github.io/us-level/eu.html
+- 日本版：https://zhung.com.tw/japanex/
 
