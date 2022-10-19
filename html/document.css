@@ -127,6 +127,7 @@ footer a.按钮 {
   -webkit-appearance: none;
   background: #fff url("go.svg") no-repeat right center;
   background-size: 30px;
+  font-family: slice, sans-serif;
 }
 #输出图像 {
   display: flex;

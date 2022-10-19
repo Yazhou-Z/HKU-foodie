@@ -89,7 +89,7 @@ getFontFromText(`JiaLiDaYuanJF`,`1234567890吃货制霸
 羊肉串
 ThusLab试验场
 分数: 53
-超爱５
+会做５
 一周
 住宿
 游玩４
@@ -97,7 +97,7 @@ ThusLab试验场
 换乘２
 害怕１
 吃过
-没听说
+没见过
 鸡蛋仔蛋挞
 labGitHub保存成图片
 手机端可长按图片 “添加到照片”
