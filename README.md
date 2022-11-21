@@ -1,8 +1,8 @@
-# 吃货制霸生成器
+# HKU 美食地图
 
-https://food.lvwzhen.com/
+<!-- https://food.lvwzhen.com/ -->
 
-![吃货制霸生成器](cover.png)
+![HKU Foodie](cover.png)
 
 ## 功能
 可以在线标记 天天吃、会做、喜欢、吃过、害怕 标记后可生成图片进行社区分享
@@ -18,9 +18,9 @@ https://food.lvwzhen.com/
 请使用自带浏览器进行保存
 
 ## 其他版本
-- 全球版：https://lab.magiconch.com/world-ex/
+<!-- - 全球版：https://lab.magiconch.com/world-ex/
 - 中国版：https://lab.magiconch.com/china-ex/
 - 美国版：https://tenpages.github.io/us-level/us.html
 - 欧洲版：https://tenpages.github.io/us-level/eu.html
-- 日本版：https://zhung.com.tw/japanex/
+- 日本版：https://zhung.com.tw/japanex/ -->
 
